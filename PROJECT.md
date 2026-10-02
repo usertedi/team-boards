@@ -45,7 +45,7 @@ team-boards/
 
 ## Current phase
 
-**Phase 0 — in progress (step 2: PostgreSQL database + connection string)**
+**Phase 0 — almost done (step 3: npm + PATH polish, then quiz)**
 
-- Done: tool check, folders, docs pushed to GitHub; `server/.env.example` added for Prisma later.
-- Next: you create DB `team_boards` and copy `.env.example` → `server/.env` (step 2 hands-on); then step 3: fix PowerShell/npm + finish Phase 0 quiz.
+- Done: `team_boards` database created; `server/.env` local; connection test OK; template pushed to GitHub.
+- Next: fix `npm` in PowerShell (below), optionally add Postgres to PATH; pass the **Phase 0 quiz** (5 questions in chat); then start **Phase 1**.
