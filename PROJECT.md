@@ -45,7 +45,7 @@ team-boards/
 
 ## Current phase
 
-**Phase 0 — almost done (step 3: npm + PATH polish, then quiz)**
+**Phase 1 — in progress (step 1: minimal Express + TypeScript server)**
 
-- Done: `team_boards` database created; `server/.env` local; connection test OK; template pushed to GitHub.
-- Next: fix `npm` in PowerShell (below), optionally add Postgres to PATH; pass the **Phase 0 quiz** (5 questions in chat); then start **Phase 1**.
+- Done: Phase 0 complete; `server/` has Express, TypeScript, `GET /health`.
+- Next: run `npm run dev`, hit `/health`; then Phase 1 step 2 (Prisma + DB connection).

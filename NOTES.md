@@ -20,3 +20,9 @@
 - **`RemoteSigned`** for **CurrentUser** is a common dev fix: your own scripts run; downloaded ones need a signature.
 - **PATH** is the list of folders Windows searches for programs. Adding Postgres `bin` lets you type `psql` instead of the full path.
 - Phase 0 ends after the **5-question quiz** — no Phase 1 until you pass.
+
+## Phase 1 — step 1 (Express “hello API”)
+
+- **Express** is a Node library that listens for HTTP requests and sends responses.
+- **`src/index.ts`** is our entry file; **`tsx`** runs TypeScript directly in dev without a manual compile step.
+- **`GET /health`** is a tiny route so we can prove the server works before adding PostgreSQL.
