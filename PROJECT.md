@@ -45,7 +45,7 @@ team-boards/
 
 ## Current phase
 
-**Phase 0 — in progress (step 1: verify tools + folder skeleton)**
+**Phase 0 — in progress (step 2: PostgreSQL database + connection string)**
 
-- Done: Node/npm/Git verified; PostgreSQL 18 service running; `client/` and `server/` folders created; Git remote already points to GitHub.
-- Next: commit docs + folders; optional: add `psql` to PATH; confirm you can log into Postgres with a test database (step 2).
+- Done: tool check, folders, docs pushed to GitHub; `server/.env.example` added for Prisma later.
+- Next: you create DB `team_boards` and copy `.env.example` → `server/.env` (step 2 hands-on); then step 3: fix PowerShell/npm + finish Phase 0 quiz.
